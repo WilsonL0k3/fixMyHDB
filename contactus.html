@@ -27,8 +27,14 @@
         <input type="number" id="contactNumber" name="contactnumber" required>
 
         <div class="servicesOfferedIcons">
-            <label for="servicesOffered">Type of Service(s) Offered:</label>
-            <input type="text" id="servicesOffered" name="servicesOffered" required>
+            <label for="servicesOffered">Type of Service(s) Offered:</label>         
+            <select id="servicesOffered">
+                <option value="option1">Electrical</option>
+                <option value="option2">Plumbing</option>
+                <option value="option3">Home Fixes</option>
+                <option value="option4">Please indicate in message box below if multiple services offered</option>
+            </select>
+          
         </div>
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
