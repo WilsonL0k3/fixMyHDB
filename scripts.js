@@ -49,3 +49,12 @@ button.addEventListener('click', () => {
 });
 
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('reviews');
+
+button.addEventListener('click', () => {
+    window.location.href = "./reviews.html";
+});
+
+});
