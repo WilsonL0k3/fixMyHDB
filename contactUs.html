@@ -28,7 +28,15 @@
 
         <div class="servicesOfferedIcons">
             <label for="servicesOffered">Type of Service(s) Offered:</label>
-            <input type="text" id="servicesOffered" name="servicesOffered" required>
+
+            <label for="servicesOffered">Choose an option:</label>
+    <select id="servicesOffered">
+        <option value="Electrical">Electrical</option>
+        <option value="Plumbing">Plumbing</option>
+        <option value="Home Fixes">Home Fixes</option>
+        <option value="option4">If more than 1 services, please select the main service here and add the additional one in the text below</option>
+    </select>
+        
         </div>
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
