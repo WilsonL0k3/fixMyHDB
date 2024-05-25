@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('contactUs');
+    const button = document.getElementById('joinUs');
 
 button.addEventListener('click', () => {
-    window.location.href = "./contactus.html";
+    window.location.href = "./joinus.html";
 });
 
 });
