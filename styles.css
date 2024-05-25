@@ -1,7 +1,43 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+*{  
 
 }
+
+.iconlinks {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+table {
+        width: 100%;      
+        border-collapse: collapse;
+             
+       
+    }
+    th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        font-weight: 600;
+        color: white;
+    }
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        
+    }
+    th {
+        background-color: #576CBC;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
 body{
 
     
@@ -43,11 +79,12 @@ h2{
     color: white; 
     text-align: center; */
     
-.intro{
+#intro{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: larger;
 }
 
  .mainContent{
@@ -64,6 +101,11 @@ img.logo {
     width: 100px; /* Example size, adjust as needed */
     margin: 10px;
 }
+
+img.logo:hover {
+background-color: #ccc;
+}
+
 .tableHeader{
     font-size: 125%;
     font-weight: 700;
