@@ -79,7 +79,7 @@ h2{
     color: white; 
     text-align: center; */
     
-#intro{
+.id="intro"{
     display: flex;
     text-align: center;
     align-items: center;
@@ -102,9 +102,6 @@ img.logo {
     margin: 10px;
 }
 
-img.logo:hover {
-background-color: #fa0d0d;
-}
 
 .tableHeader{
     font-size: 125%;
