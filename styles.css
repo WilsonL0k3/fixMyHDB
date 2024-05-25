@@ -4,13 +4,14 @@
         font-weight: 500;
         font-style: normal;
       }
+      text-align: center;
 }
 
 .iconlinks {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: space-around;
-    padding: 50px;
+    padding: 20px;
 }
 
 table {
@@ -95,7 +96,7 @@ h2{
    
     text-align: center;
     justify-content: center;
-    margin: 30px;
+    margin: 50px;
 }
 
 .additionalInfo button{
